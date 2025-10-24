@@ -1,1 +1,13 @@
 
+spring.datasource.url=jdbc:postgresql://localhost:5474/jobdb
+spring.datasource.username=lukesh_job
+spring.datasource.password=querty
+
+# ===============================
+# = JPA / HIBERNATE CONFIGURATION
+# ===============================
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.database=POSTGRESQL
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
